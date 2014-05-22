@@ -17,7 +17,9 @@ The script does the following:
 * Uses descriptive activity names to name the activities in the data set
   * Depreciated charcters "-()" were removed
   * Case was changed to match R standards
-* Appropriately labels the data set with descriptive activity names. 
+* Appropriately labels the data set with descriptive activity names.
+  * Data are read in as factors and labeled appropriately
 * Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+  * This file is created as a text (.txt) file containing a tab-deliminated table.
 
 Please see the code book for details regarding variables in the tidy dataset.
